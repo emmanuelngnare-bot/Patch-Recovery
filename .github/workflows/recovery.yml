@@ -3,7 +3,7 @@ name: RECOVERY
 on:
   workflow_dispatch:
     inputs:
-      RECOVERY_URL:
+      RECOVERY_URL: https://drive.google.com/file/d/1bPaWogpnkS9IaeDSAYfQ2cL1jiF23DDr/view?usp=drive_link
         description: 'RECOVERY URL'
         required: true
         default: 'https://files.catbox.moe/(RECOMMENDED)'
